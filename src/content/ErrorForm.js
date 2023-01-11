@@ -68,13 +68,13 @@ const ErrorForm = () => {
               <Col xl={6} lg={6} md={6}>
                 <Form.Group className="mb-3" controlId="email">
                   <Form.Label>Email (required)</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Control type="email" placeholder="Enter email" required/>
                 </Form.Group>
               </Col>
               <Col xl={6} lg={6} md={6}>
                 <Form.Group className="mb-3" controlId="name">
                   <Form.Label>Name/alias (required)</Form.Label>
-                  <Form.Control type="text" placeholder="Enter name/alias" />
+                  <Form.Control type="text" placeholder="Enter name/alias" required/>
                 </Form.Group>
               </Col>
               <Col xl={6} />
@@ -83,7 +83,7 @@ const ErrorForm = () => {
               <Col xl={6} lg={6}>
                 <Form.Group controlId="file" className="mb-3">
                   <Form.Label>Error log (required, .txt files only)</Form.Label>
-                  <Form.Control type="file" accept=".txt" />
+                  <Form.Control type="file" accept=".txt" required/>
                 </Form.Group>
               </Col>
               <Col id="error-form-check" xl={6} lg={6} md={6}>
@@ -98,7 +98,7 @@ const ErrorForm = () => {
               <Col xl={12} md={12}>
                 <Form.Group className="mb-3" controlId="description">
                   <Form.Label>Description of error (required)</Form.Label>
-                  <Form.Control as="textarea" rows={3} />
+                  <Form.Control as="textarea" rows={3} required/>
                 </Form.Group>
               </Col>
             </Row>
