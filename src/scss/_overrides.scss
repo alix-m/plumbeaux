@@ -1,0 +1,119 @@
+h2 {
+    font: 32px The Sims Sans SC;
+    font-weight: 700;
+}
+
+h3 {
+    font: 24px The Sims Sans SC;
+    color: $color-primary;
+}
+
+.navbar-bg {
+    background-color: rgba(122, 104, 175, .5);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+    font-family: 'the_sims_sans_sc_boldregular';
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.nav-icon:hover {
+    filter: invert(32%) sepia(25%) saturate(3163%) hue-rotate(262deg) brightness(88%) contrast(97%);
+}
+
+.card-text {
+    color: $color-primary;
+}
+
+.card-link {
+    color: $color-secondary;
+    text-decoration: none;
+    font: normal normal normal 16px/22px 'The Sims Sans SC';
+}
+
+.card-link:hover{
+    text-decoration: underline;
+    color: $color-accent;
+}
+
+#grid-downloads, #error-form {
+    margin-top: 54px;
+    justify-content: center;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 .25rem rgba(152, 54, 163, .25);
+}
+
+.form-label, .form-check-label {
+    color: white;
+}
+
+#error-form-check {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.form-check-input:checked {
+    background-color: $color-accent;
+    border: 1px solid darken($color-primary, 5);
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 .25rem rgba(152, 54, 163, .25);
+}
+
+.btn {
+    background-color: $color-primary;
+    border: 1px solid darken($color-primary, 5);
+
+    &:active {
+        background-color: $color-primary !important;
+        border: 1px solid darken($color-primary, 5);
+    }
+
+    &:hover {
+        background-color: $color-accent;
+        border: 1px solid darken($color-accent, 5);
+    }
+}
+
+.pack-logo {
+    margin: 16px 32px 32px 0;
+}
+
+.white-bg {
+    background-color: white;
+    padding: 32px 0;
+}
+
+.p-text {
+    font: normal normal normal 16px/22px The Sims Sans SC;
+    color: #49479A;
+}
+
+.section-heading {
+    font-size: 36px;
+    color: white;
+    font: normal normal bold 35px/43px The Sims Sans SC;
+}
+
+.section-container { 
+    padding-top: 86px;
+    padding-bottom: 43px;
+}
+
+.section-text {
+    font: normal normal normal 24px/22px The Sims Sans SC;
+    color: white;
+    padding: 10px;
+}
