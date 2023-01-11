@@ -9,10 +9,16 @@
 ### Tech
 
 Webpack
+
 Node js
+
 Express js
+
 Nodemailer
+
 React
+
 Bootstrap
+
 
 Website hosted on AWS EC2 instance
