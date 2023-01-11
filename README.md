@@ -8,17 +8,16 @@
 
 ### Tech
 
-Webpack
+🎈 Webpack
 
-Node js
+🎈 Node js
 
-Express js
+🎈 Express js
 
-Nodemailer
+🎈 Nodemailer
 
-React
+🎈 React
 
-Bootstrap
+🎈 Bootstrap
 
-
-Website hosted on AWS EC2 instance
+🎈 Website hosted on AWS EC2 instance
