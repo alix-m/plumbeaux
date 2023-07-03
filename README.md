@@ -1,4 +1,4 @@
-# Plumbeaux Website 🧙‍♂️ 
+# Plumbeaux Website 🧙‍♂️
 
 **The website for my Sims 4 mod, University of Magic**
 
